@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
