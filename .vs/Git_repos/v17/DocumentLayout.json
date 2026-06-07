@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "S:\\Git_repos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\src\\node.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\src\\node.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\Tests\\chaos_test.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\Tests\\chaos_test.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\src\\crypto_utils.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\src\\crypto_utils.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\src\\adversary.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\src\\adversary.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Git_repos\\DistributedSystemAssignment\\src\\client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DistributedSystemAssignment\\src\\client.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\requirements.txt",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\requirements.txt",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\requirements.txt",
+              "RelativeToolTip": "DistributedSystemAssignment\\requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-07T08:01:58.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\Dockerfile",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\Dockerfile",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\Dockerfile",
+              "RelativeToolTip": "DistributedSystemAssignment\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-07T07:58:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chaos_test.sh",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\tests\\chaos_test.sh",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\tests\\chaos_test.sh",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\tests\\chaos_test.sh",
+              "RelativeToolTip": "DistributedSystemAssignment\\tests\\chaos_test.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-07T07:52:25.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "crypto_utils.py",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\src\\crypto_utils.py",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\src\\crypto_utils.py",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\src\\crypto_utils.py",
+              "RelativeToolTip": "DistributedSystemAssignment\\src\\crypto_utils.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-06-07T07:49:42.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "client.py",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\src\\client.py",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\src\\client.py",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\src\\client.py",
+              "RelativeToolTip": "DistributedSystemAssignment\\src\\client.py",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-06-07T07:49:34.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "adversary.py",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\src\\adversary.py",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\src\\adversary.py",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\src\\adversary.py",
+              "RelativeToolTip": "DistributedSystemAssignment\\src\\adversary.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-06-07T07:49:09.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "node.py",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\src\\node.py",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\src\\node.py",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\src\\node.py",
+              "RelativeToolTip": "DistributedSystemAssignment\\src\\node.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-06-07T07:48:34.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "S:\\Git_repos\\DistributedSystemAssignment\\docker-compose.yml",
+              "RelativeDocumentMoniker": "DistributedSystemAssignment\\docker-compose.yml",
+              "ToolTip": "S:\\Git_repos\\DistributedSystemAssignment\\docker-compose.yml",
+              "RelativeToolTip": "DistributedSystemAssignment\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-06-07T07:30:57.07Z",
+              "EditorCaption": ""
             }
           ]
         }

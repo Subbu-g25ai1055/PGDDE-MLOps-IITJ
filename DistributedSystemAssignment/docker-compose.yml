@@ -1,0 +1,105 @@
+version: "3.9"
+
+services:
+
+  node1:
+    build: .
+    container_name: node1
+    hostname: node1
+    environment:
+      - NODE_ID=node1
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u node.py
+    ports:
+      - "5001:5001"
+
+  node2:
+    build: .
+    container_name: node2
+    hostname: node2
+    environment:
+      - NODE_ID=node2
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u node.py
+    ports:
+      - "5002:5002"
+
+  node3:
+    build: .
+    container_name: node3
+    hostname: node3
+    environment:
+      - NODE_ID=node3
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u node.py
+    ports:
+      - "5003:5003"
+
+  node4:
+    build: .
+    container_name: node4
+    hostname: node4
+    environment:
+      - NODE_ID=node4
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u node.py
+    ports:
+      - "5004:5004"
+
+  node5:
+    build: .
+    container_name: node5
+    hostname: node5
+    environment:
+      - NODE_ID=node5
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u node.py
+    ports:
+      - "5005:5005"
+
+  client:
+    build: .
+    container_name: client
+    hostname: client
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u client.py
+    depends_on:
+      - node1
+      - node2
+      - node3
+      - node4
+      - node5
+
+  adversary:
+    build: .
+    container_name: adversary
+    hostname: adversary
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -u adversary.py
+    depends_on:
+      - node1
+      - node2
+      - node3
+      - node4
+      - node5
+
+  toxiproxy:
+    image: shopify/toxiproxy
+    container_name: toxiproxy
+    ports:
+      - "8474:8474"
+      - "8666:8666"
