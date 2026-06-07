@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DistributedSystemAssignment",
+    "\\DistributedSystemAssignment\\src",
+    "\\DistributedSystemAssignment\\Tests"
   ],
-  "SelectedNode": "\\S:\\Git_repos",
   "PreviewInSolutionExplorer": false
 }
